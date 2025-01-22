@@ -1,0 +1,56 @@
+/* Basic Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    font-size: 100%;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased; /* Cải thiện hiển thị font trên webkit */
+    -moz-osx-font-smoothing: grayscale; /* Cải thiện hiển thị font trên Firefox */
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Cung cấp một khoảng cách nhỏ cho các phần tử form */
+  input, textarea, select, button {
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+  }
+  
+  /* Cắt bỏ đường viền của các phần tử trên khi được chọn */
+  a, button {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Cải thiện khả năng hiển thị của phần tử thuộc tính block-level */
+  article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display: block;
+  }
+  
